@@ -174,7 +174,7 @@ def get_data(data_dir, date=date.today().strftime("%Y-%m-%d"), tam_data=100, pri
     
     return data    
 
-def exchange_rate_matrix(data):
+def exchange_rate_matrix2(data):
     """
     Exchange Rate Matrix Representation
     param:
@@ -190,12 +190,14 @@ def exchange_rate_matrix(data):
     aux = c1.copy()
     random.seed(10)
     for i in range(n):
-        c1[i] = aux/c1[['Precio']].values[i]*(1+random.uniform(0,max_spread_pct))
+        c1[i] = aux/c1.loc[i]['Precio']*(1+random.uniform(0,max_spread_pct))
+        
     c1.drop(columns=['Precio'],inplace=True)
+    
     for i in range(len(c1.index)):
         for j in range(len(c1.columns)):
             if i==j:
-                c1.loc[i,j] = 1
+                c1.loc[i,j] = 1    
     return c1
 
 def log_transformed_rep(data):
