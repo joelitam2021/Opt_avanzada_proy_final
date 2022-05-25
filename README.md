@@ -17,8 +17,10 @@
 
 <br>
 
-<div align="center"><h1>Proyecto final</h1></div>
-<div align="center"><h1>Arbitrage Identification Cycle in Crypto Trading</h1></div>
+<div align="center"><h1>Proyecto final</h1><br><h1>Arbitrage Identification Cycle in Crypto Trading</h1></div>
+<p align = "center">
+    <img src="img/crypto.png" />
+</p>
 
 
 ## Objetivo
