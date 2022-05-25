@@ -53,7 +53,11 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 ## Referencias
 
 1 [¿Qué es el 'trading'?. BBVA. INVERSIONES Act. 17 feb 2021.](https://www.bbva.com/es/que-es-trading-que-hace-falta-para-operar/)
+
 2 [¿Qué es y para qué sirve la tecnología blockchain?](https://www.solunion.cl/blog/que-es-y-para-que-sirve-la-tecnologia-blockchain/)
+
 3 [¿Qué es el Trading de Criptomonedas?. Plus500.](https://www.plus500.com/es-ES/Trading/CryptoCurrencies/What-Is-Cryptocurrency-Trading~3)
+
 4 [CoinMarketCap](https://www.bbva.com/es/que-es-trading-que-hace-falta-para-operar/](https://coinmarketcap.com/es/all/views/all/)
+
 5 [Algoritmo Bellman Ford](https://www.programiz.com/dsa/bellman-ford-algorithm)
