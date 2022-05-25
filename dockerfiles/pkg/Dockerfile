@@ -25,7 +25,7 @@ RUN jupyter notebook --generate-config && \
 
 RUN pip3 install $PIP_PACKAGES_COMMON
 RUN pip3 install $PIP_PACKAGES_KALE
-RUN pip3 install git+https://github.com/joelitam2021/Opt_avanzada_proy_final
+#RUN pip3 install git+https://github.com/joelitam2021/Opt_avanzada_proy_final
 
 RUN jupyter labextension install kubeflow-kale-labextension@0.6.1
 
