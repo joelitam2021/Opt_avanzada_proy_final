@@ -45,10 +45,23 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 ## Descripción de archivos
 
 ## Dokerfile
+Se cuenta con una imagen de docker que contiene preisntalado la nueva version deel paquete creado para ejecutar el método de Bellman Ford, y el en este link se puede ver el [Dockerfile](https://github.com/joelitam2021/Opt_avanzada_proy_final/main/dockerfiles/pkg/Dockerfile)
 
+Para ejecutar el docker se usa la siguiente instrucción:
+
+docker run --rm -v \<ruta a mi directorio\> :/datos --name jupyterlab_practica2 -p 8888:8888 -d joelitam2021/pkg_proy_final:0.1
+
+donde ***\<ruta a mi directorio\>*** deberá sustituirse por la ruta local donde desee clonar este *docker*.
+
+Después de correr la imagen de docker en su computadora, podrá acceder al jupyterlab a través de un browser usando la siguiente dirección:
+
+http://localhost:8888
+
+Le pedirá una contraseña, que por defaul es qwerty.
 
 ## Binder
 
+Se cuenta con la opción de correr el paquete usando la herramienta de Binder
 
 
 
