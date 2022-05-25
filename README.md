@@ -2,7 +2,7 @@
     <img src="img/cinta.png" />
 </p>
 <p align = "center">
-    <img src="img/itam_logo.png" />
+    <img src="img/logo_itam.png" />
 </p>
 
 # **Maestría en Ciencia de Datos**
