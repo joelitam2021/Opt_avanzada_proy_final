@@ -45,7 +45,7 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 ## Descripción de archivos
 
 ## Dokerfile
-Se cuenta con una imagen de docker que contiene preisntalado la nueva version deel paquete creado para ejecutar el método de Bellman Ford, y el en este link se puede ver el [Dockerfile](https://github.com/joelitam2021/Opt_avanzada_proy_final/dockerfiles/pkg/Dockerfile)
+Se cuenta con una imagen de docker que contiene preisntalado la nueva version deel paquete creado para ejecutar el método de Bellman Ford, y el en este link se puede ver el [Dockerfile](dockerfiles/pkg/Dockerfile)
 
 Para ejecutar el docker se usa la siguiente instrucción:
 
@@ -63,6 +63,7 @@ Le pedirá una contraseña, que por defaul es qwerty.
 
 Se cuenta con la opción de correr el paquete usando la herramienta de Binder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joelitam2021/Opt_avanzada_proy_final/main)
 
 
 ## Referencias
