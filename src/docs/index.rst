@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Bellman Ford documentation!
-==================================
+=======================================
 
 **Bellman Ford algorithm helps us find the shortest path from a vertex to all other vertices of a weighted graph.**
 
