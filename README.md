@@ -5,10 +5,10 @@
     <img src="img/logo_itam.png" />
 </p>
 
-# **Maestría en Ciencia de Datos**
-## Temas Selectos de Modelado. Primavera 2022.
+## **Maestría en Ciencia de Datos**
+### Temas Selectos de Modelado. Primavera 2022.
 
-### **Equipo 1** 
+#### **Equipo 1** 
 
 - Nyrma Paulina Hernández Trejo
 - Aide Jazmín González Cruz
@@ -35,7 +35,7 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 
 ## Documentación
 
-- La documentación referente al proyecto lo encontrará en la siguiente liga:
+- La documentación referente al proyecto lo encontrará en la siguiente liga: [Trabajo escrito] (https://docs.google.com/document/d/1u9fuzXFTQkjcrsRQLEBuo4nu_3JRkLZL/edit?usp=sharing&ouid=112241731871540030335&rtpof=true&sd=true)
 
 
 - La documentación del métiodo esta disponible en:
