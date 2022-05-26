@@ -1,4 +1,6 @@
 import setuptools
+from pip.req import parse_requirements
+install_reqs = parse_requirements('requirements.txt', session='hack')
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -14,7 +16,7 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     install_requires=[
-        'numpy>=1.19.2'
+        'numpy>=1.21.0'
         ],
     python_requires=">=3.7.12",
 )
