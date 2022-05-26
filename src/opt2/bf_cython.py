@@ -66,4 +66,4 @@ def bf_negative_cycle_p(graph, node_ini=None, distance_ini=np.inf):
             break
         v = predecessors[int(v)]
         
-    return cycle.reverse()
+    return list(reversed(cycle))
