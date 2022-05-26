@@ -44,8 +44,10 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 
 ## Descripción de archivos
 
+- Carpeta [.github/workflows](https://github.com/optimizacion-2-2022-gh-classroom/practica-2-segunda-parte-jesusmb230795/tree/main/.github/workflows): Contiene los archivos *.yml* encargados de lanzar la construcción del *docker*, la documentación del paquete y el lanzamiento de los *tests*
+
 ## Dokerfile
-Se cuenta con una imagen de docker que contiene preisntalado la nueva version deel paquete creado para ejecutar el método de Bellman Ford, y el en este link se puede ver el [Dockerfile](dockerfiles/pkg/Dockerfile)
+Se cuenta con una imagen de docker que contiene preisntalado la nueva version del paquete creado para ejecutar el método de Bellman Ford, en este link se puede ver el [Dockerfile](dockerfiles/pkg/Dockerfile)
 
 Para ejecutar el docker se usa la siguiente instrucción:
 
