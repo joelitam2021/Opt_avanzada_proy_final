@@ -63,5 +63,6 @@ def bf_negative_cycle_cc(graph, node_ini=None, distance_ini=np.inf):
         if v == x and len(cycle) > 1:
             break
         v = predecessors[int(v)]
-    
-    return cycle.reverse()
+        
+       
+    return list(reversed(cycle))
