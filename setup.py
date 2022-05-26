@@ -1,6 +1,4 @@
 import setuptools
-from pip.req import parse_requirements
-install_reqs = parse_requirements('requirements.txt', session='hack')
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
