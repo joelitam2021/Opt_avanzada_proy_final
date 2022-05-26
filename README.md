@@ -38,7 +38,7 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 - La documentación referente al proyecto lo encontrará en la siguiente liga: [Trabajo escrito](https://docs.google.com/document/d/1u9fuzXFTQkjcrsRQLEBuo4nu_3JRkLZL/edit?usp=sharing&ouid=112241731871540030335&rtpof=true&sd=true)
 
 
-- La documentación del métiodo esta disponible en:
+- La documentación del métiodo esta disponible en: [Algortimo Bellman Ford](https://joelitam2021.github.io/Opt_avanzada_proy_final/)
 
 
 
