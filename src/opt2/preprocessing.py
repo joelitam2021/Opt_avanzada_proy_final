@@ -3,6 +3,7 @@ import numpy as np
 from datetime import date
 import random
 import networkx as nx
+import matplotlib.pyplot as plt
 
 class data_to_graph():
     def __init__(
@@ -100,7 +101,8 @@ class data_to_graph():
         aux = c1.copy()
         random.seed(10)
         for i in range(n):
-            c1[i] = aux/c1[['Precio']].values[i]*(1+random.uniform(0,self.max_spread_pct))
+            c1[i] = aux/c1.loc[i]['Precio'] *(1+random.uniform(0,self.max_spread_pct))
+            
         c1.drop(columns=['Precio'],inplace=True)
         for i in range(len(c1.index)):
             for j in range(len(c1.columns)):
@@ -161,20 +163,20 @@ def get_data(data_dir, date=date.today().strftime("%Y-%m-%d"), tam_data=100, pri
     df = pd.read_csv(data_dir)
     df_date = df[df['Date']==date]
     df_date = df_date[df_date[price] > 0]
-    
+              
     if(tam_data == None):
-        df_random = df_date
+        df_random = df_date       
     else:
         df_random = df_date.sample(n = tam_data)
-    
     
     df_random = df_random.reset_index()
     data = df_random[["ticker", price]]
     data.columns = ['Símbolo', 'Precio']
     
-    return data    
+    
+    return data
 
-def exchange_rate_matrix2(data):
+def exchange_rate_matrix(data):
     """
     Exchange Rate Matrix Representation
     param:
@@ -236,3 +238,20 @@ def create_grap(data):
     G.add_weighted_edges_from(edge)
     
     return G
+
+def show_graph(G):
+    """
+    Graph Representation
+    param:
+        Graph
+    return:
+        Plot
+    """
+    pos = nx.spring_layout(G,k=10)
+
+    nx.draw(G, pos, with_labels=True)
+    nx.draw_networkx_edge_labels(G,
+                                 pos,
+                                 edge_labels={(u, v): d for u, v, d in G.edges(data="weight")},
+                                 label_pos=.66)
+    plt.show()
