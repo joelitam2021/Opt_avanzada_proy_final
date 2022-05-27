@@ -48,11 +48,11 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 
 - Carpeta [aws](aws): Contiene evidencia del uso de la infraestructura de aws, con las herramientas de *Kale* y *KUbeflow*.
 
-- Carpeta [data](data): Contiene los datos que se utilizaron para alimentar las corridas del método, consiten en un historico diario de días del mes de mayo, referntes a precios de diferentes criptomonedas.
+- Carpeta [data](data): Contiene los datos que se utilizaron para alimentar las corridas del método, consiten en un histórico diario de días del mes de mayo, referntes a precios de diferentes criptomonedas.
 
 - Carpeta [notebooks](notebooks): Contiene *notebooks* trabajados a lo largo del desarrollo del proyecto .
 
-- Carpeta [src](src): Contiene el código del paquete *bellman ford*, y funciones auxiliares para la carga de datos y trasformación.
+- Carpeta [src](src): Contiene el código del paquete *bellman ford*, y funciones auxiliares para la carga de datos y trasformación, así como documentación.
 
 - Archivo [pipeline_bellman_ford.ipynb](pipeline_bellman_ford.ipynb): es el pipeline final con dos casos ejemplo de corrida, es un pipeline tagueado para correr con el *docker* generado y herramientas como  *Kale* y *KUbeflow*.
 
@@ -61,9 +61,6 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 - Archivo [setup.py](setup.py): instalador del paquete.
 
 - Archivo [test.py](test.py): archivo que contiene los test al paquete.
-
-- Archivo [Doc_apoyo.ipynb](https://github.com/optimizacion-2-2022-gh-classroom/practica-2-primera-parte-joelitam2021/blob/main/Doc_apoyo.ipynb) : archivo que contiene tablas con corridas con distintos parámetros, resultados y algunas fechas de lanzamiento.
-
 
 
 ## Dokerfile
