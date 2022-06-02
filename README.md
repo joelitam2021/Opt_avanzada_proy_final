@@ -97,3 +97,8 @@ Se cuenta con la opción de correr el paquete usando la herramienta de Binder
 4 [CoinMarketCap](https://coinmarketcap.com/es/all/views/all/)
 
 5 [Algoritmo Bellman Ford](https://www.programiz.com/dsa/bellman-ford-algorithm)
+
+6 [6.Minikube y AWS](https://github.com/ITAM-DS/analisis-numerico-computo-cientifico/wiki/6.Minikube-y-AWS)
+
+7 [Minikube, Kubeflow y Kale 2022](https://www.youtube.com/watch?v=SusT5xQN1ro)
+
