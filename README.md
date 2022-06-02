@@ -50,6 +50,8 @@ En esté proyecto se usará el método *Bellman Ford* el cuál calcula la ruta m
 
 - Carpeta [data](data): Contiene los datos que se utilizaron para alimentar las corridas del método, consiten en un histórico diario de días del mes de mayo, referntes a precios de diferentes criptomonedas.
 
+- Carpeta [docs](docs): Contiene el trabajo escrito del presente proyecto, así como la presentación del mismo.
+
 - Carpeta [notebooks](notebooks): Contiene *notebooks* trabajados a lo largo del desarrollo del proyecto .
 
 - Carpeta [src](src): Contiene el código del paquete *bellman ford*, y funciones auxiliares para la carga de datos y trasformación, así como documentación.
