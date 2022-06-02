@@ -73,11 +73,11 @@ docker run --rm -v \<ruta a mi directorio\> :/datos --name jupyterlab_practica2 
 ```
 donde ***\<ruta a mi directorio\>*** deberá sustituirse por la ruta local donde desee clonar este *docker*.
 
-Después de correr la imagen de docker en su computadora, podrá acceder al jupyterlab a través de un browser usando la siguiente dirección:
+Después de correr la imagen de docker en su computadora, podrá acceder al *jupyterlab* a través de un *browser* usando la siguiente dirección:
 
 http://localhost:8888
 
-Le pedirá una contraseña, que por defaul es qwerty.
+Le pedirá una contraseña, que por default es ***qwerty***.
 
 ## Binder
 
